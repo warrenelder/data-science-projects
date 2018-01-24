@@ -88,9 +88,9 @@ df_b = df.filter(["DATE", "COMPANY", "LT_DEBT_TO_COM_EQY"])
 df_c = df.filter(["DATE", "COMPANY", "TRAIL_12M_EBITDA", "EBITDA_MARGIN"])
 
 # Step 7: Save cleaned data to csv
-df_a.to_csv("cleaned_bloomberg_data.csv", encoding="utf-8")
-df_b.to_csv("cleaned_bloomberg_data.csv", encoding="utf-8")
-df_c.to_csv("cleaned_bloomberg_data.csv", encoding="utf-8")
+df_a.to_csv("cleaned_data_a.csv", encoding="utf-8")
+df_b.to_csv("cleaned_data_b.csv", encoding="utf-8")
+df_c.to_csv("cleaned_data_c.csv", encoding="utf-8")
 
 # Examine data
 
